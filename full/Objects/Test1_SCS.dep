@@ -1,0 +1,42 @@
+Dependencies for Project 'Test1', Target 'SCS': (DO NOT MODIFY !)
+F (.\main.c)(0x5CE56706)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\MyLibrary-I.\RTE\_SCS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F030x8 -DUSE_FULL_LL_DRIVER -DHSE_VALUE="4000000	"-o .\objects\main.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\MyLibrary\mylib.c)(0x5CE55E90)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f030x8.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8BA646)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B975A94)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x5978B3FE)
+I (.\MyLibrary\us_delay.h)(0x5CE29192)
+I (.\MyLibrary\adc_drv.h)(0x5CE5676D)
+I (.\MyLibrary\stm32f0xx_clock.c)(0x5CE3F95C)
+I (.\MyLibrary\stm32f0xx_port.c)(0x5CE3F7FA)
+I (.\MyLibrary\stm32f0xx_timer.c)(0x5CE2B868)
+I (relay.c)(0x5CE29192)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x599F218A)
+I (inputs.c)(0x5CE29192)
+I (.\MyLibrary\delay.c)(0x5CE2ABA0)
+F (.\todo.txt)(0x5CE29192)()
+F (.\adc_drv.cpp)(0x5CE56784)(--cpp -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\MyLibrary-I.\RTE\_SCS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F030x8 -DUSE_FULL_LL_DRIVER -DHSE_VALUE="4000000	"-o .\objects\adc_drv.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\adc_drv.crf --depend .\objects\adc_drv.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f030x8.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8BA646)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B975A94)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x5978B3FE)
+I (.\MyLibrary\adc_drv.h)(0x5CE5676D)
+F (.\MyLibrary\adc_drv.h)(0x5CE5676D)()
+F (RTE\Device\STM32F030C8Tx\startup_stm32f030x8.s)(0x5CDE6202)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_SCS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "STM32F030x8 SETA 1"--list .\listings\startup_stm32f030x8.lst --xref -o .\objects\startup_stm32f030x8.o --depend .\objects\startup_stm32f030x8.d)
+F (RTE\Device\STM32F030C8Tx\system_stm32f0xx.c)(0x5CDE6202)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\MyLibrary-I.\RTE\_SCS-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F030x8 -DUSE_FULL_LL_DRIVER -DHSE_VALUE="4000000	"-o .\objects\system_stm32f0xx.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f030x8.h)(0x5978B3FE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8BA646)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B975A94)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F9424)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x5978B3FE)

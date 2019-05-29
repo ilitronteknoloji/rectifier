@@ -1,0 +1,9 @@
+--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\MyLibrary
+-I.\RTE\Device\STM32F030C8Tx
+-I.\RTE\_SCS
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\STM32F0xx_HAL_Driver\Inc
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\STM32F0xx_HAL_Driver\Inc\Legacy
+-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F030x8 -DUSE_FULL_LL_DRIVER -DHSE_VALUE="4000000	"
+-o .\objects\stm32f0xx_hal_rcc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\stm32f0xx_hal_rcc.crf --depend .\objects\stm32f0xx_hal_rcc.d --feedback ".\Objects\Test1.fed" "C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_rcc.c"

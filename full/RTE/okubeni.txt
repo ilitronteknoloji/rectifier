@@ -1,0 +1,14 @@
+Bu klasörde keil derleyici ile bir proje yaratılınca oluşturulan dosyalar yer almaktadır.
+
+- RTE_Components.h	: çalışma zamanı ortam bileşenleri, Değiştirmeyin!
+
+- startup_stm32f030x8.s	: assembly dilinde başlangıç dosyası, Değiştirmeyin! 
+						  Kesme vektörleri, Stack ve Heap koşullanır.
+						  Önce SystemInit işlevine sonra main işlevine atlanır.
+- system_stm32f0xx.c	: SystemInit() ve SystemCoreClockUpdate() işlevleri ve
+						  SystemCoreClock 32 bitlik değişkeni tanımlanır.
+						  ilk açılışta sistem saati iç RC osilatörden alınır (8MHz).
+						  Kullanıcı SystemInit() işlevini değiştirerek istenen clock hızına geçilebilir.
+	  
+					
+						  

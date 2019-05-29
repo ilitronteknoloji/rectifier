@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cagatay Guzgun, Ilitron, LIC=2TTNN-Y6SN1-VI25N-Y9KFA-GM93W-FX92K
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Cagatay\Desktop\ILITRON\Range extender\Rectifier\full\Test1.uvprojx
+Project File Date:  05/22/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Warning: You are compiling one or more files of source type C++ and have selected 'use MicroLIB'. MicroLIB does not support C++!
+  
+Build target 'SCS'
+compiling main.c...
+.\MyLibrary\adc_drv.h(36): warning:  #1295-D: Deprecated declaration adc_clk_init - give arg types
+  void adc_clk_init();
+.\MyLibrary\adc_drv.h(42): warning:  #1295-D: Deprecated declaration adc_calibrate - give arg types
+  void adc_calibrate();
+.\MyLibrary\adc_drv.h(48): warning:  #1295-D: Deprecated declaration adc_enable - give arg types
+  void adc_enable();
+.\MyLibrary\adc_drv.h(54): warning:  #1295-D: Deprecated declaration adc_disable - give arg types
+  void adc_disable();
+main.c: 4 warnings, 0 errors
+compiling adc_drv.cpp...
+linking...
+.\Objects\Test1.axf: Error: L6218E: Undefined symbol adc_init (referred from main.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\Test1.axf" - 1 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SCS
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: Keil.Standalone::Device:Startup:1.0.0
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030x8.s
+      Source file:   MDK\Device\Source\ARM\STM32F0xx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
